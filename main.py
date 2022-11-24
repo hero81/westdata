@@ -20,6 +20,7 @@ class spider():
             file = open("OK_sub.txt", "a", encoding='UTF-8')
             urls = chrome.find_elements_by_xpath("//a")
             for suburl in urls:
+                #print(suburl.get_attribute)
                 file.write(str(suburl.get_attribute("href")+ '\n'))
                 print(f'=======已保存{i}条订阅=======')
                 time.sleep(2)
