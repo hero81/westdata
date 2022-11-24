@@ -3,7 +3,7 @@ from selenium.webdriver import Chrome
 import time
 import os
 
-os.environ["http_proxy"] = "http://127.0.0.1:10809"
+# os.environ["http_proxy"] = "http://127.0.0.1:10809"
 localtime = time.asctime( time.localtime(time.time()) )
 print ("任务开始的时间为 :", localtime)
 
