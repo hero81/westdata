@@ -1,7 +1,7 @@
 # TG频道@fffffx2
 from selenium.webdriver import Chrome
 import time
-import os
+# import os
 
 # os.environ["http_proxy"] = "http://127.0.0.1:10809"
 localtime = time.asctime( time.localtime(time.time()) )
