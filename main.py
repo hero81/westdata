@@ -1,4 +1,3 @@
-# TG频道@fffffx2
 from selenium.webdriver import Chrome
 import time
 # import os
